@@ -1,0 +1,35 @@
+.header {
+    background-color: black;
+    height: 70px;
+}
+
+.header .container,
+.header-left {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.burger .burgers {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    z-index: 1;
+    border-color: white;
+    color: black;
+}
+.burger.active {
+    display: flex;
+}
