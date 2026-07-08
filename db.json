@@ -1,1 +1,10 @@
-{}
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Ruby Photo T-Shirt",
+      "price": "£35.00",
+      "image": "shop/pic/JENNIERUBY-T-SHIRT-OFFWHITEBIRTH_PREVIEW_fe2abb3d-140e-467a-8304-d8cc84d9eace.webp"
+    }
+  ]
+}

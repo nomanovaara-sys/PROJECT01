@@ -1,0 +1,63 @@
+body {
+    font-family: "shop-font";
+}
+.header{
+    background-color: rgb(117, 14, 14);
+    width: 1500px;
+    height: 150px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+
+}
+.nav-right {
+    color: white;
+    text-decoration: none;
+}
+
+.header-icons {
+    display: flex;
+    margin-left: 670px;
+    gap: 20px;
+    
+}
+.header-pic {
+    width: 300px;
+    height: 130px;
+ }
+ 
+ .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.draculaimg {
+    width: 480px;
+    height: 480px;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column; 
+}
+.hero-btn {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(117, 14, 14); 
+       color: white;
+}
+#h-right {
+color: rgb(117, 14, 14);
+}
+
+.hi {
+    margin: 0;
+}
