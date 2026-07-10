@@ -1,10 +1,59 @@
-{
+{ 
+  
   "products": [
     {
       "id": 1,
+      "title": "Dracula (JENNIE Remix)",
+      "subtitle": "Limited Edition CD Single",
+      "price": "£4.99",
+      "image": "pic/DraculaCDSingle.webp",
+      "description": "Tame Impala & JENNIE - \"Dracula (JENNIE Remix)\" - jewel case CD single.",
+      "tracklist": [
+        "Dracula - JENNIE Remix",
+        "Dracula - JENNIE Remix [Instrumental]"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Dracula (JENNIE Remix Boys Noize Disko Version) Store Exclusive Digital Download",
+      "price": "£1.99",
+      "image": "pic/DigitalDownload_store.webp"
+    },
+    {
+      "id": 3,
       "title": "Ruby Photo T-Shirt",
       "price": "£35.00",
-      "image": "shop/pic/JENNIERUBY-T-SHIRT-OFFWHITEBIRTH_PREVIEW_fe2abb3d-140e-467a-8304-d8cc84d9eace.webp"
+      "image": "pic/JENNIERUBY-T-SHIRT-OFFWHITEBIRTH_PREVIEW_fe2abb3d-140e-467a-8304-d8cc84d9eace.webp"
+    },
+    {
+      "id": 4,
+      "title": "The Ruby Experience Crewneck Sweatshirt",
+      "price": "£90.00",
+      "image": "pic/JENNIE-COVER-CREWNECK-FRONT.webp"
+    },
+    {
+      "id": 5,
+      "title": "Ruby Flower T-Shirt",
+      "price": "£35.00",
+      "image": "pic/JENNIE-FLOWER-TEE-FRONT.webp"
+    },
+    {
+      "id": 6,
+      "title": "Ruby White Crewneck Sweatshirt",
+      "price": "£35.00",
+      "image": "pic/1_23.webp"
+    },
+    {
+      "id": 7,
+      "title": "Ruby Photo Tank Top",
+      "price": "£35.00",
+      "image": "pic/JENNIEBTSTANK.webp"
+    },
+    {
+      "id": 8,
+      "title": "Ruby Store Exclusive Jewel Case CD - JENNIE Only Audio",
+      "price": "£11.99",
+      "image": "pic/1_1_b4d52cd5-bfd5-4699-9497-edaebf4c17ca.webp"
     }
   ]
 }

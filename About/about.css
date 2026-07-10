@@ -4,7 +4,7 @@ body {
 .background {
     position: fixed;
     inset: 0;
-    background: url("pic/jennie.ruby.jpg") center/cover;
+    background: url("pic/artwork-440x440 (1).jpg") center/cover;
     filter: blur(40px);
     transform: scale(1.1);
     z-index: -1;
@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 .layout {
     margin-top: 30px;
@@ -106,6 +107,7 @@ color: rgb(155, 154, 154);
 .layout-content {
     width: 400px;
     height: 500px;
+    margin-bottom: 50px;
     
 }
 

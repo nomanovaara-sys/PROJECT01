@@ -1,0 +1,158 @@
+body {
+     margin: 0;
+    overflow-x: hidden;
+    background: #000;
+}
+.background {
+   position: fixed;
+    inset: 0;
+
+    background-image: url("pic/artwork-440x440.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px; /* размер размытой картинки */
+
+    filter: blur(50px);
+    transform: scale(1.4);
+
+    opacity: 0.8;
+
+    z-index: -2;
+}
+
+.background::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+     background: rgba(254, 253, 253, 0.663);
+}
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.layout {
+    margin-top: 30px;
+}
+.layout-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 30px 0px;
+}
+.layouttext {
+    font-size: 30px;
+}
+
+
+.layout-content {
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.music-services {
+    background: #fdfefe;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.music-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    border-bottom: 1px solid rgba(228, 222, 222, 0.932);
+}
+
+.music-item:last-child {
+    border-bottom: none;
+}
+.music-item:hover {
+    background: #e1e8e9;
+}
+
+.pic-logo {
+    height: 32px;
+}
+
+.music-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 40px;
+
+    background: #d2dada;
+    color: #141414;
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.music-btn:hover {
+    background: #cfcfd2;
+}
+
+.photo {
+  display: block;
+    width: 250px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.layouttext {
+    text-align: center;
+    color: black;
+    margin: 0%;
+    
+}
+.layouttext span {
+    display: block;
+}
+
+.layouttext span:first-child {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.layouttext span:last-child {
+    font-size: 28px;
+}
+
+.layout-text {
+color: rgb(68, 66, 66);
+margin: 0%;
+}
+
+.layout-content {
+    width: 400px;
+    height: 500px;
+    
+}
+
+.pic-logo {
+    width: 120px;
+    height: 40px;
+
+}
+.p {
+    width: 400px;
+    height: 30px;
+    color: rgb(191, 190, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}

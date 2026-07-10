@@ -1,19 +1,20 @@
-console.log("JS работает");
+const burgerBtn = document.querySelector(".burger-btn");
+const burger = document.querySelector(".burger");
 
-    const cards = document.querySelector(".cards");
+burgerBtn.addEventListener("click", (event) => {
+    event.stopPropagation();
 
-fetch("http://localhost:3000/products")
-    .then(res => res.json())
-    .then(data => {
+    burgerBtn.classList.toggle("active");
+    burger.classList.toggle("active");
+});
 
-        const product = data[0];
 
-        cards.innerHTML = `
-            <div class="card">
-                <img src="${product.image}" alt="">
-                <h3>${product.title}</h3>
-                <p>${product.price}</p>
-            </div>
-        `;
-    });
-    
+document.addEventListener("click", () => {
+    burgerBtn.classList.remove("active");
+    burger.classList.remove("active");
+});
+
+
+burger.addEventListener("click", (event) => {
+    event.stopPropagation();
+});
